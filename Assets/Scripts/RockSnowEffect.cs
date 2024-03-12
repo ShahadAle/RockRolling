@@ -31,7 +31,7 @@ public class RockSnowEffect : MonoBehaviour
             }
         }
     }
-
+    
     private IEnumerator DisableSnowAfterDelay()
     {
         yield return new WaitForSeconds(snowDuration);
